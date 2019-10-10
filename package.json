@@ -1,0 +1,25 @@
+{
+  "name": "assistk",
+  "version": "1.0.0",
+  "description": "Sua/seu assistente virtual no Discord!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielhssilva/AssistK.git"
+  },
+  "keywords": [
+    "assistente"
+  ],
+  "author": "AssK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielhssilva/AssistK/issues"
+  },
+  "homepage": "https://github.com/gabrielhssilva/AssistK#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
