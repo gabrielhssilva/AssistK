@@ -18,8 +18,8 @@ const pfx = '!';
 // Repostas para Comandos
 bot.on('message', message => {
     let responseObject = {
-        "!play":"Aqui não tem nenhum escravo pra ficar pondo música para você!",
-        "!teste":"Vai se lascar, maluco! Num vem com essa conversinha de teste não!",
+        "!play":"Tocar a musica",
+        "!teste":"Comando de teste",
         "!ping":`Ping do AssistK: ${bot.ping}ms`
     };
 
@@ -30,9 +30,9 @@ bot.on('message', message => {
     if(message.content.startsWith("!roleta")){
         randomNumber = Math.floor(Math.random() * (6 - 1) + 1 );
         if(randomNumber == 2){
-            message.reply("você perdeu bebê! Vai lá pegar um café pra gente, vai ?!");
+            message.reply("Perdeu!");
         } else {
-            message.reply("dessa vez você deu sorte ein! Dá próxima não passa hehehe");
+            message.reply("Ganhou!");
         }
     }
 });
